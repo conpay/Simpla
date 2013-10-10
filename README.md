@@ -8,16 +8,16 @@
 5. Подключите модуль в шаблонах сайта:
 
 * в шаблоне /design/html/index.tpl добавить строку перед закрывающим тегом </body>:
-```smarty
+```php
 {if $module == 'ProductView' || $module == 'ProductsView'}{include file='../../../payment/Conpay/conpay.tpl'}{/if}
 ```
 
 * в шаблоне /design/html/product.tpl разместить разметку контейнера кнопки:
-```html
+```php
 <div id="conpay-btn-container"></div>
 ```
 
 * в шаблоне /design/html/products.tpl разместить разметку контейнера кнопки:
-```html
+```php
 <div id="conpay-link-{$product->id}"></div>
 ```
