@@ -1,0 +1,11 @@
+Order Deny,Allow 
+Deny from All 
+<FilesMatch "conpay-proxy.php">
+  Allow from all
+</FilesMatch>
+<FilesMatch "conpay.callback.php">
+  Allow from all
+</FilesMatch>
+<FilesMatch "conpay.addorder.php">
+  Allow from all
+</FilesMatch>

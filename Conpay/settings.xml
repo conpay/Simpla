@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Сервис CONPAY.RU
+	</name>
+	<settings>
+		<variable>merchant_id</variable>
+		<name>Идентификатор продавца</name>
+	</settings>
+	<settings>
+		<variable>api_key</variable>
+		<name>API-ключ</name>
+	</settings>
+	<settings>
+		<variable>response_pass</variable>
+		<name>Ключ ответа</name>
+	</settings>
+	<settings>
+		<variable>button_container_id</variable>
+		<name>ID контейнера кнопки</name>
+	</settings>
+	<settings>
+		<variable>button_class_name</variable>
+		<name>Класс кнопки</name>
+	</settings>
+	<settings>
+		<variable>button_tag_name</variable>
+		<name>Тег кнопки</name>
+	</settings>
+	<settings>
+		<variable>button_text</variable>
+		<name>Содержание кнопки</name>
+	</settings>
+</module>
